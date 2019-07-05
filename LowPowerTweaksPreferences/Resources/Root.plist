@@ -87,7 +87,32 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Disable Tweaks</string>
+			<string>Select Tweaks</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>key</key>
+			<string>mode</string>
+			<key>default</key>
+			<string>blacklist</string>
+			<key>defaults</key>
+			<string>me.jjolano.lowpowertweaks</string>
+			<key>validValues</key>
+			<array>
+				<string>blacklist</string>
+				<string>whitelist</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Blacklist Mode</string>
+				<string>Whitelist Mode</string>
+			</array>
+			<key>shortTitles</key>
+			<array>
+				<string>Blacklist Mode</string>
+				<string>Whitelist Mode</string>
+			</array>
 		</dict>
 	</array>
 	<key>title</key>
