@@ -14,8 +14,8 @@ static BOOL is_dylib_disabled(const char *path) {
 
 	if(disable_all_tweaks || [prefs boolForKey:name]) {
 		if([path_ns hasPrefix:@"/Library/MobileSubstrate"]
-		|| [path_ns hasPrefix:@"/usr/lib/tweaks"]
-		|| [path_ns hasPrefix:@"/usr/lib/TweakInject"]) {
+		|| [path_ns hasPrefix:@"/Library/TweakInject"]
+		|| [path_ns hasPrefix:@"/usr/lib/tweaks"]) {
 			return YES;
 		}
 	}
