@@ -1,0 +1,9 @@
+Package: me.jjolano.lowpowertweaks
+Name: LowPowerTweaks
+Depends: mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Selectively disable tweaks while Low Power Mode is enabled.
+Maintainer: jjolano
+Author: jjolano
+Section: Tweaks

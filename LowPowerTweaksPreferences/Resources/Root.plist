@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LowPowerTweaks Settings</string>
+			<key>footerText</key>
+			<string>Selected tweaks will be disabled if Low Power Mode is enabled prior to launching applications. SpringBoard tweaks will be disabled if Low Power Mode is enabled before restarting SpringBoard.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.jjolano.lowpowertweaks</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable LowPowerTweaks</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.jjolano.lowpowertweaks</string>
+			<key>key</key>
+			<string>enable_apps_only</string>
+			<key>label</key>
+			<string>Enable for Applications Only</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.jjolano.lowpowertweaks</string>
+			<key>key</key>
+			<string>disable_all_tweaks</string>
+			<key>label</key>
+			<string>Disable All Tweaks</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring:</string>
+			<key>label</key>
+			<string>Restart SpringBoard</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>reset:</string>
+			<key>label</key>
+			<string>Reset Settings</string>
+			<key>isDestructive</key>
+			<true/>
+			<key>confirmation</key>
+			<dict>
+				<key>prompt</key>
+				<string>This will reset all preferences to defaults.</string>
+				<key>title</key>
+				<string>Reset</string>
+				<key>okTitle</key>
+				<string>Reset</string>
+				<key>cancelTitle</key>
+				<string>Cancel</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Disable Tweaks</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LowPowerTweaks</string>
+</dict>
+</plist>
